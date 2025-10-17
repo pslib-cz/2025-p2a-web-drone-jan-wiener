@@ -117,8 +117,8 @@
     }
 
     .button--light {
-        color: var(--text-color);
-        background-color: var(--secondary-color);
+        color: black;
+        background-color: white;
     }
 
     .button--primary {
@@ -182,6 +182,7 @@
         color: var(--header-text-color);
         line-height: 1.2;
         padding: 1em;
+        margin-bottom: 4rem;
 
     }
 
@@ -208,6 +209,7 @@
         list-style-type: disc;
         list-style-position: inside;
         padding-left: 1em;
+        margin-bottom: 4rem;
     }
 
     ul li::marker {
@@ -251,7 +253,7 @@
 
     h2 {
         font-size: 2rem;
-        margin-top: 6rem;
+        margin-top: 1rem;
     }
 
     footer {
